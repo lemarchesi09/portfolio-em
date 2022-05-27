@@ -1,0 +1,32 @@
+.pro-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    height: 400px;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+.carousel img{
+    height: 400px;
+    width: auto;
+}
+
+.carousel-inner{
+    border-radius: 25px;
+}
+
+.carousel-caption h3{
+    color: rgba(128, 128, 128, 0.61);
+    font-size: 200%;
+    -webkit-text-stroke: 1px black;
+}
+
+.carousel-caption p{
+    font-size: 170%;
+    -webkit-text-stroke: 1px black;
+    color: rgba(128, 128, 128, 0.61);
+}

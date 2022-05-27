@@ -1,0 +1,43 @@
+.sec-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container{
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+.card{
+    margin: 50px;
+}
+
+.card img{
+    width: 150px;
+}
+
+div .card, button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+}
+
+div button{
+    height: 25%;
+    width: auto;
+}
+
+
+
+button :hover{
+    /* background-color: rgba(160, 163, 163, 0.178);
+    border-radius: 25px; */
+    /* transform: skewY(-5deg); */
+    /* transform: rotate(0.5turn); */
+    transform: scale(1.1) translate(0%, -2%);
+    transition: ease-in 0.5s;
+}

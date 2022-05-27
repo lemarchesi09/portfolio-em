@@ -1,0 +1,114 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.links-cont{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.element{
+    display: flex;
+    align-items: baseline;
+}
+
+.links-cont a{
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.links-cont .element a span{
+    display: none;
+    color: #ffc107;
+}
+
+
+.links-cont a:hover span{
+    display: inline-block;
+    position: absolute;
+    animation: show 0.8s ease-in-out forwards;
+    /* animation: move 2s ease-in-out forwards; */
+}
+
+.links-cont a:hover .icono{
+    position: relative;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateX(10px);
+    }
+}
+
+form{
+    width: 200%;
+    border-radius: 10px;
+}
+
+form .form-control{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white !important;
+}
+
+form .form-control:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid yellow;
+    border-radius: 0px;
+
+    box-shadow:  none;
+}
+.textarea{
+    resize: none;
+}
+                                /* FORMULARIO HTML */
+/* form{
+    display: grid;
+
+    border-radius: 10px;
+}
+.form-style{
+    background-color: rgba(163, 162, 162, 0.082);
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+form textarea{
+    resize: none;
+}
+
+input .form-style:focus-visible{
+    border: 1px solid orange;
+} */
+
+
+/* @keyframes show {
+    from{
+        display: flex;
+        opacity: 0;
+    }
+    to{
+        display: flex;
+        opacity: 1;
+    }
+}
+
+.links-cont a:hover{
+    animation: show 1s;
+}
+
+.links-cont a span:hover{
+    animation: show 1s ;
+} */
