@@ -15,7 +15,7 @@ export default function Header() {
           {/* <div className='typed-container '>
             <div className='typed-out'>Escrito a mano</div>
           </div> */}
-          <img src={Perfil} alt="Profile" />
+          <img className='perfil' src={Perfil} alt="Profile" />
       </header>
   )
 }
